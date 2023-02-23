@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Lista de nombres</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h3>Lista de nombres</h3>
+            <div>
+                <span>1</span>
+                <input type="text" placeholder="nombre" id="nombre1">
+                <br>
+                <span>2</span>
+                <input type="text" placeholder="nombre" id="nombre2">
+                <br>
+                <span>3</span>
+                <input type="text" placeholder="nombre" id="nombre3">
+                <br>
+                <span>4</span>
+                <input type="text" placeholder="nombre" id="nombre4">
+                <br>
+            </div>
+            <button id="guardar" onclick="guardar()">
+                Guardar
+            </button>
+            <div id="nombre_con_comas">
+            </div>
+            <hr>
+            <div id="nombre_sin_comas"></div>
+            <div id="ver"></div>
+            <button id="ordenar">
+                Ordenar
+            </button>
+            <button id="actualizar" onclick="actualizar()">actualizar</button>
+        </center>
+    </body>
+</html>

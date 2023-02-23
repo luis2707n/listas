@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+#guardar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    margin: 10px;
+}
+#ordenar{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#nombre_con_comas{
+    border: 1px solid green;
+    padding: 10%;
+    background-color: greenyellow;
+    border-radius: 10%;
+    width: 50px;
+}
+#nombre_sin_comas{
+    border: 1px solid red;
+    padding: 10%;
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+}
